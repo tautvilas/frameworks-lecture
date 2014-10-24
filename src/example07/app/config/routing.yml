@@ -1,0 +1,5 @@
+lecture_blog:
+    resource: "@LectureBlogBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
