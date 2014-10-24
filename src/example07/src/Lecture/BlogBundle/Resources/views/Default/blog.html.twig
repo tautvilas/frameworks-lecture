@@ -8,4 +8,8 @@
         <button type="submit">Save</button>
     </form>
     <hr />
+    {% for post in posts %}
+        {{post.text}}
+        <br /><hr />
+    {% endfor %}
 {% endblock %}

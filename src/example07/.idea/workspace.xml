@@ -5,8 +5,11 @@
     <ignored path="example07.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html.twig" changelist="adfc3ad3-5cbb-4183-b730-eb7bab25f2e0" time="1414163398559" ignored="false" />
-    <file path="/blog.html.twig" changelist="adfc3ad3-5cbb-4183-b730-eb7bab25f2e0" time="1414163418655" ignored="false" />
-    <file path="/parameters.yml" changelist="adfc3ad3-5cbb-4183-b730-eb7bab25f2e0" time="1414163314639" ignored="false" />
+    <file path="/blog.html.twig" changelist="adfc3ad3-5cbb-4183-b730-eb7bab25f2e0" time="1414165731659" ignored="false" />
+    <file path="/parameters.yml" changelist="adfc3ad3-5cbb-4183-b730-eb7bab25f2e0" time="1414165349311" ignored="false" />
+    <file path="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" changelist="adfc3ad3-5cbb-4183-b730-eb7bab25f2e0" time="1414164200735" ignored="false" />
+    <file path="/DefaultController.php" changelist="adfc3ad3-5cbb-4183-b730-eb7bab25f2e0" time="1414165583361" ignored="false" />
+    <file path="$PROJECT_DIR$/app/logs/dev.log" changelist="adfc3ad3-5cbb-4183-b730-eb7bab25f2e0" time="1414165083762" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,19 +70,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DefaultController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lecture/BlogBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="29" selection-start="313" selection-end="313" vertical-scroll-proportion="-5.625">
+            <state line="43" column="38" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.7247191">
+              <folding>
+                <element signature="e#49#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lecture/BlogBundle/Resources/views/Default/blog.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="14" selection-start="398" selection-end="398" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lecture/BlogBundle/Resources/views/Default/index.html.twig">
+      <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="34" selection-end="50" vertical-scroll-proportion="-1.25">
+            <state line="1" column="18" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,34 +111,25 @@
       <file leaf-file-name="parameters.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="25" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+            <state line="11" column="26" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parameters.yml.dist" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
+      <file leaf-file-name="Post.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lecture/BlogBundle/Entity/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="2" column="18" selection-start="25" selection-end="25" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <file leaf-file-name="PostRepository.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lecture/BlogBundle/Entity/PostRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.html.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lecture/BlogBundle/Resources/views/Default/blog.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="14" selection-start="348" selection-end="348" vertical-scroll-proportion="0.16853933">
+            <state line="8" column="2" selection-start="105" selection-end="105" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
@@ -140,10 +145,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Lecture/BlogBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/Lecture/BlogBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/Lecture/BlogBundle/Entity/PostRepository.php" />
+        <option value="$PROJECT_DIR$/src/Lecture/BlogBundle/Entity/Post.php" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/Lecture/BlogBundle/Resources/views/Default/blog.html.twig" />
+        <option value="$PROJECT_DIR$/src/Lecture/BlogBundle/Controller/DefaultController.php" />
       </list>
     </option>
   </component>
@@ -315,6 +323,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example07" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example07" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lecture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -330,28 +364,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example07" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example07" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -403,6 +415,11 @@
         <serverdata />
       </server>
     </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Lecture/BlogBundle/Entity" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -528,28 +545,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lecture/BlogBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="29" selection-start="313" selection-end="313" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -563,17 +566,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Lecture/BlogBundle/Entity/PostRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="8" column="2" selection-start="105" selection-end="105" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="26" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lecture/BlogBundle/Entity/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="18" selection-start="25" selection-end="25" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lecture/BlogBundle/Resources/views/Default/blog.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="348" selection-end="348" vertical-scroll-proportion="0.16853933">
+        <state line="12" column="14" selection-start="398" selection-end="398" vertical-scroll-proportion="-7.5">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lecture/BlogBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="38" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.7247191">
+          <folding>
+            <element signature="e#49#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
