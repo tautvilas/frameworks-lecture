@@ -39,8 +39,9 @@ class DefaultController extends Controller
     public function postBlogAction(Request $request)
     {
         $post = new Post();
+        $processor = $this->get('text_processor');
         if ($request->get("post")) {
-            $post->setText($request->get("post"));
+            $post->setText($processor->removeSwearWords($request->get("post")));
             $em = $this->getDoctrine()->getManager();
             $em->persist($post);
             $em->flush();
