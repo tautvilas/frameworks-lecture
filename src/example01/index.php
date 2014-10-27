@@ -5,6 +5,7 @@ if (isset($_POST['post']) && $_POST['post']) {
     $statement = $db->prepare('INSERT INTO `POST` (text) VALUES (:text)');
     $statement->bindValue(':text', $_POST['post'], SQLITE3_TEXT);
     $result = $statement->execute();
+//    $db->exec('INSERT INTO post (text) VALUES ("'.$_POST['post'].'")');
     header("Location: .");
 }
 
