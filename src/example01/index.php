@@ -27,7 +27,6 @@ $posts = $db->query('SELECT * FROM `POST`');
 <hr />
 <? while($row = $posts->fetchArray()): ?>
   <?=$row['text'] ?><hr />
-  <?php echo $row['text'] ?>
 <? endwhile ?>
 </body>
 </html>
